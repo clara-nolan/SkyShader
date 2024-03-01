@@ -1,6 +1,7 @@
 # Dynamic Sky Shader Description
 
 This shader dynamically simulates the sky's appearance over time, transitioning through different parts of the day—sunrise, morning, midday, sunset, and night—using OpenGL Shading Language (GLSL) version 150. The shader is designed to run on the GPU for real-time graphics applications, such as video games, rendering a visually compelling skybox that changes based on the time within the game world.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mwNiWVoK5KM?si=Fp7O3Nn_3XOsP8P5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Shader Uniforms
 - `u_ViewProj`: The inverse of the view projection matrix, used for transforming screen space coordinates back into world space coordinates.
